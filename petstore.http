@@ -9,7 +9,7 @@ POST http://localhost:8080/pets
 Content-Type: application/json
 
 {
-  "name": "Buddy",
+  "name": "Puppy",
   "species": "Dog",
   "age": 2,
   "price": 150
