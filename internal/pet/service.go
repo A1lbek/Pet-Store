@@ -7,7 +7,6 @@ type Service struct {
 func NewService(repo *Repository) *Service {
 	return &Service{repo: repo}
 }
-
 func (s *Service) CreatePet(p Pet) Pet {
 	return s.repo.Create(p)
 }

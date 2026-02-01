@@ -14,7 +14,6 @@ func NewRepository() *Repository {
 		nextID: 1,
 	}
 }
-
 func (r *Repository) Create(p Pet) Pet {
 	r.mu.Lock()
 	defer r.mu.Unlock()
