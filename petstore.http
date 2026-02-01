@@ -1,0 +1,31 @@
+### ===============================
+### Pet Store API – Assignment 4
+### Monolithic Backend (Go)
+### ===============================
+
+
+### 1️⃣ Create a new pet
+POST http://localhost:8080/pets
+Content-Type: application/json
+
+{
+  "name": "Buddy",
+  "species": "Dog",
+  "age": 2,
+  "price": 150
+}
+
+
+### ===============================
+### 2️⃣ Get all pets
+GET http://localhost:8080/pets
+
+
+### ===============================
+### 3️⃣ Get pet by ID
+GET http://localhost:8080/pets/1
+
+
+### ===============================
+### 4️⃣ Get non-existing pet (error case)
+GET http://localhost:8080/pets/999
